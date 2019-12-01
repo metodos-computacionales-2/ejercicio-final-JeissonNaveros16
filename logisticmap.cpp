@@ -10,7 +10,7 @@ int main()
 {   
     for(double r = 0.2; r<2.9; r+=0.1)
     {
-        double xf = fixed_points(r, 1.2);
+        double xf = fixed_points(r, 0.2);
         std::cout << r << "  " << xf << "\n";
     }
     
